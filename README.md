@@ -49,6 +49,12 @@ cd journal-accordion
 
 6. You can add more entries by repeating steps 1-4.
 
+## Demo
+
+To see a live demo of the Journal Accordion, you can visit the following link: [Journal Accordion Demo](https://your-demo-link)
+
+In the demo, you can try out the features of the Journal Accordion, create new entries, expand and collapse entries, and experience the responsive design across different devices.
+
 ## Acknowledgements
 
 - The Journal Accordion was created using HTML, CSS, and JavaScript.
