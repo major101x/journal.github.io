@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Accordion</title>
+  </head>
+  <body>
+    <div id="accordion">
+      <header id="title">Journal</header>
+      <div id="entries">
+        <div class="content-container">
+          <div class="title">What will happen tomorrow?</div>
+          <div class="note">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, tenetur molestias! Temporibus ducimus iste ipsam id
+            praesentium iure fuga deserunt velit facilis sequi! Eaque odio ad
+            dolores aspernatur voluptates tempore!
+          </div>
+        </div>
+        <div class="content-container">
+          <div class="title">Feeling good today</div>
+          <div class="note">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, tenetur molestias! Temporibus ducimus iste ipsam id
+            praesentium iure fuga deserunt velit facilis sequi! Eaque odio ad
+            dolores aspernatur voluptates tempore!
+          </div>
+        </div>
+        <div class="content-container">
+          <div class="title">Late Night Hangouts!!!</div>
+          <div class="note">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, tenetur molestias! Temporibus ducimus iste ipsam id
+            praesentium iure fuga deserunt velit facilis sequi! Eaque odio ad
+            dolores aspernatur voluptates tempore!
+          </div>
+        </div>
+      </div>
+      <div id="add-note">
+        <header id="title">Add Journal Entry</header>
+        <div id="note-input">
+          <label for="note-title"
+            >Note Title:
+            <input
+              type="text"
+              name="note-title"
+              id="note-title"
+              placeholder="Note title here..."
+            />
+          </label>
+
+          <!-- Character count indicator -->
+          <div class="title-count char-count"></div>
+
+          <label for="note-desc"
+            >Short Note:
+            <textarea
+              name="note-desc"
+              id="note-desc"
+              placeholder="Short Note here..."
+              rows="7"
+              cols="30"
+            ></textarea>
+          </label>
+
+          <!-- Character count indicator -->
+          <div class="note-count char-count"></div>
+          
+          <button id="btn">Add Entry</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
