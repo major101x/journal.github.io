@@ -108,5 +108,5 @@ accordion.forEach((content) => {
 titleInput.addEventListener("input", titleLength);
 textarea.addEventListener("input", noteLength);
 
-// Add click event listener to the button to trigger adding an entry
+// Add a click event listener to the button to trigger adding an entry
 btn.addEventListener('click', addEntry);
