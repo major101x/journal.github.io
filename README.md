@@ -1,6 +1,6 @@
 # Journal Accordion
 
-The Journal Accordion is a simple web application that allows users to create journal entries and view them in an accordion-style format. Each entry consists of a title and a note, and the entries can be expanded or collapsed by clicking on them. The application also provides character count limits for both the title and note fields, with visual feedback when the limits are exceeded.
+The Journal Accordion is a web application that allows users to create journal entries and view them in an accordion-style format. Each entry consists of a title and a note, and the entries can be expanded or collapsed by clicking on them. The application also provides character count limits for both the title and note fields, with visual feedback when the limits are exceeded.
 
 ## Features
 
